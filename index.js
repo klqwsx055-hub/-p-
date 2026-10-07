@@ -24,7 +24,7 @@ const bot = new Client({
 });
 
 // ⚙️ ضَع التوكن الجديد الخاص ببوتك هنا
-const BOT_TOKEN = "MTU1NzUyNjYwMDU0MTU0NDQ5OQ.Gc64DD.h70eTlnGZ5uyg4yCY5-5PZD5rhI1qo2p6gL4JU";
+const BOT_TOKEN = process.env.BOT_TOKEN || "MTU1NzUyNjYwMDU0MTU0NDQ5OQ.Gc64DD.h70eTlnGZ5uyg4yCY5-5PZD5rhI1qo2p6gL4JU";
 
 bot.on('ready', () => {
     console.log(`=================================`);
