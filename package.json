@@ -1,0 +1,13 @@
+{
+  "name": "s7r-cloner-bot",
+  "version": "1.0.0",
+  "description": "Discord Cloner Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "discord.js-selfbot-v13": "^13.0.5"
+  }
+}
